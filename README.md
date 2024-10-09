@@ -1,6 +1,6 @@
 # Job Recommendation System
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/d776baee-6d54-490d-9dd2-2ff8cf58015d">
+<img width="800" alt="image" src="https://github.com/user-attachments/assets/d776baee-6d54-490d-9dd2-2ff8cf58015d">
 
 
 
