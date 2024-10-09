@@ -1,5 +1,8 @@
 # Job Recommendation System
 
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/a46f536c-0da2-4730-954a-094006b37748">
+
+
 ## Overview
 
 This project is focused on building a **Job Recommendation System** that suggests job listings to users based on a given job title. It leverages content-based filtering, utilizing the **TF-IDF Vectorizer** and **K-Nearest Neighbors** algorithm to compute recommendations by measuring the similarity between job descriptions.
