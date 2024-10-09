@@ -66,5 +66,28 @@ The system allows users to input a job title, and it returns job listings that a
 
 ## Evaluation
 
-- **Precision**: 1.0 (perfectly relevant recommendations).
-- **Recall**: 0.0847 (low coverage of all relevant jobs).
+### Precision: 1.0
+Precision of 1.0 means all recommended jobs were relevant, showing highly accurate recommendations.
+
+### Recall: 0.0847
+Recall of 0.0847 indicates that the model found only 8.47% of all relevant jobs, meaning many were missed.
+
+### Summary
+- **Precision of 1.0** shows excellent relevance.
+- **Recall of 0.0847** suggests low coverage, with many relevant jobs not recommended.
+
+### Way Forward
+To improve recall:
+- Adjust the number of `n_neighbors` to capture more jobs.
+- Enhance the diversity of features used for similarity.
+
+### Alternate Evaluation
+
+### Precision: 0.4
+40% of recommended jobs were relevant, but there’s room for improvement.
+
+### Recall: 0.0339
+The model found only 3.39% of relevant jobs, showing poor coverage.
+
+### Conclusion
+The original model with **precision of 1.0** performs better than the alternate with **precision of 0.4**, but both need improvements in recall to recommend more relevant jobs.
